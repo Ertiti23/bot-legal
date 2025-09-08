@@ -31,16 +31,37 @@
     a:hover {
       text-decoration: underline;
     }
+    .invite-button {
+      display: inline-block;
+      margin-top: 20px;
+      padding: 12px 25px;
+      background-color: #7289da; /* color de Discord */
+      color: white;
+      font-weight: bold;
+      border-radius: 8px;
+      text-decoration: none;
+      transition: background 0.3s;
+    }
+    .invite-button:hover {
+      background-color: #5b6eae;
+    }
   </style>
 </head>
 <body>
   <div class="container">
     <h1>🚀 Bienvenido</h1>
     <p>Esta es la página oficial de mi bot de Discord.</p>
-    <p>
+
+    <!-- Botón para invitar el bot -->
+    <a class="invite-button" href="https://discord.com/oauth2/authorize?client_id=1412829450634268844&permissions=116736&integration_type=0&scope=bot" target="_blank">
+      Invitar Bot a tu servidor
+    </a>
+
+    <p style="margin-top: 20px;">
       <a href="terms.html">Términos de servicio</a> | 
       <a href="privacy.html">Política de privacidad</a>
     </p>
   </div>
 </body>
 </html>
+
